@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inscrição</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Inscrição para Torneio Regional de jiu-jitsu</h1>
+        <p id="titulo2">Preencha as sua informações abaixo</p>
+    </div>
+    <form action="">
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="Nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="campo">
+                <label for="Sobrenome">Sobrenome</label>
+                <input type="text" name="Sobrenome" id="Sobrenome" required>
+            </div>
+        </fieldset>
+        <fieldset>
+        <div class="campo">
+            <label for="email">Email do Participante</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="campo">
+            <label for="telefone">Telefone do Participante</label>
+            <input type="tel" name="telefone" id="telefone" required>
+        </div>
+        <div class="campo">
+            <label for="idade">Idade do Participante</label>
+            <select name="idade" id="idade" required>
+                <option selected disabled value="Selecione">Selecione</option><br>
+                <option value="">4 á 15 anos</option>
+                <option value="">16 á 19</option>
+                <option value="">19 ou mais</option>
+            </select>
+        </div>
+        </fieldset>
+        <fieldset class="grupo">
+        <div class="check">
+            <label for="faixas">Cor da sua Faixa</label>
+            <select name="Faixa" id="Faixa" required>
+                <option selected disabled value="selecione">Selecione</option>
+                <option> Branca</option><br>
+                <option value="">Cinza</option>
+                <option value="">Amarela</option>
+                <option value="">Laranja</option>
+                <option value="">Verde</option>
+                <option value="">Azul</option><br>
+                <option value="">Roxa</option><br>
+                <option value="">Marrom</option><br>
+                <option value="">Preta</option>
+                <option value="">Coral</option>
+            </select>
+        </div>
+        <br>
+        <div class="campo">
+            <label for="Categoria">Peso/Categoria</label>
+            <select name="Peso" id="Peso" required>
+                <option selected disabled value="Selecione">Selecione</option>
+                <option value="">Galo</option>
+                <option value="">Pluma</option>
+                <option value="">Pena</option>
+                <option value="">Leve</option>
+                <option value="">Médio</option>
+                <option value="">Meio-Pesado</option>
+                <option value="">Pesado</option>
+                <option value="">Super Pesado</option>
+                <option value="">Pessadísimo</option>
+            </select>
+        </div>
+        <div class="campo">
+            <label for="problemas">Complicações Médicas do participante</label>
+            <input type="text" name="medico" id="medico">
+        </div>
+        <div class="campo">
+           <a href="index2.html"><button class="botao"  onsubmit="" hr>Oss!</button> </a>            
+        </div>
+    </fieldset>
+    </form>
+</body>
+</html>
